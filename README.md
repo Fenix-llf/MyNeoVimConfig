@@ -1,6 +1,6 @@
-## READ ME
+## README
 
 Just a NeoVim configuration backup.
 
-email : leelinfae@163.com
+E-mail : leelinfae@163.com
 

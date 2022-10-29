@@ -19,11 +19,12 @@ local options = {
     cursorline = true, --高亮当前行
     cursorcolumn = false, --不高亮当前列
     showcmd = true, --右下角显示命令
+	undofile = true, --撤销永久化
+	background = 'dark', --背景黑色
 }
 
+--引入以上所有设置
 vim.opt.shortmess:append 'c'
 for k,v in pairs(options) do
-	vim .opt[k] = v
+	vim.opt[k] = v
 end
-
-
