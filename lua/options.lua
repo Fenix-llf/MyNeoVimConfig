@@ -21,6 +21,9 @@ local options = {
     showcmd = true, --右下角显示命令
 	undofile = true, --撤销永久化
 	background = 'dark', --背景黑色
+	fileencodings = 'utf-8,ucs-bom,gb18030,gbk,gb2312,cp936',
+	termencoding = 'utf-8',
+	encoding = 'utf-8',
 }
 
 --引入以上所有设置

@@ -12,11 +12,10 @@ vim.cmd [[
 return require('packer').startup(function()
 	use 'wbthomason/packer.nvim'
     use 'ervandew/supertab'
-
     use 'vim-airline/vim-airline'
     use 'vim-airline/vim-airline-themes'
-    use 'preservim/nerdtree'
+    use 'nvim-tree/nvim-tree.lua'
 	use 'navarasu/onedark.nvim'
 	use 'nvim-lualine/lualine.nvim'
-	use 'kyazdani42/nvim-tree.lua'	
+	use 'neovim/nvim-lspconfig'
 end)
