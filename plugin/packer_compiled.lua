@@ -109,10 +109,10 @@ _G.packer_plugins = {
     path = "/home/fenix/.local/share/nvim/site/pack/packer/start/friendly-snippets",
     url = "https://github.com/rafamadriz/friendly-snippets"
   },
-  ["lspkind-nvim"] = {
+  ["lspkind.nvim"] = {
     loaded = true,
-    path = "/home/fenix/.local/share/nvim/site/pack/packer/start/lspkind-nvim",
-    url = "https://github.com/onsails/lspkind-nvim"
+    path = "/home/fenix/.local/share/nvim/site/pack/packer/start/lspkind.nvim",
+    url = "https://github.com/onsails/lspkind.nvim"
   },
   ["lualine.nvim"] = {
     loaded = true,

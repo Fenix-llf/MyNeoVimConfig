@@ -2,4 +2,5 @@
 vim.cmd[[
 	syntax enable
 	colorscheme onedark
+	:NvimTreeOpen
 ]]
