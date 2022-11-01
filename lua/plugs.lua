@@ -30,4 +30,8 @@ return require('packer').startup(function()
   	use 'hrsh7th/vim-vsnip'
   	use 'rafamadriz/friendly-snippets'
 	use 'onsails/lspkind-nvim'
+	use 'nvim-telescope/telescope.nvim'
+    use 'nvim-lua/plenary.nvim'
+	use 'kyazdani42/nvim-web-devicons'
+	use {"nvim-telescope/telescope-fzf-native.nvim", run = "make"}
 end)
