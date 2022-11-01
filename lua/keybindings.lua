@@ -8,14 +8,14 @@ local map = vim.api.nvim_set_keymap
 map("n", "s", "<nop>", opt)
 map("n", "s<right>","<Cmd> set splitright<CR>:vsplit<CR>", opt)
 map("n", "s<left>","<Cmd> set nosplitright<CR>:vsplit<CR>", opt)
-map("n", "s<up>","<Cmd> set splitbelow<CR>:vsplit<CR>", opt)
-map("n", "s<donw>","<Cmd> set nosplitbelow<CR>:vsplit<CR>", opt)
+map("n", "s<up>","<Cmd> set splitbelow<CR>:split<CR>", opt)
+map("n", "s<donw>","<Cmd> set nosplitbelow<CR>:split<CR>", opt)
 
 --切换窗口
 map("n", "<leader><right>", "<c-w>l", opt)
 map("n", "<leader><left>", "<c-w>h", opt)
-map("n", "<leader><up>", "<c-w>j", opt)
-map("n", "<leader><down>", "<c-w>k", opt)
+map("n", "<leader><up>", "<c-w>k", opt)
+map("n", "<leader><down>", "<c-w>j", opt)
 map('n', '<leader>rn', '<cmd>lua vim.lsp.buf.rename()<CR>', opt)
 -- code action
 map('n', '<space>ca', '<cmd>lua vim.lsp.buf.code_action()<CR>', opt)
@@ -36,6 +36,4 @@ map('n', '<leader>=', '<cmd>lua vim.lsp.buf.formatting()<CR>', opt)
 -- map('n', '<space>wa', '<cmd>lua vim.lsp.buf.add_workspace_folder()<CR>', opt)
 -- map('n', '<space>wr', '<cmd>lua vim.lsp.buf.remove_workspace_folder()<CR>', opt)
 -- map('n', '<space>wl', '<cmd>lua print(vim.inspect(vim.lsp.buf.list_workspace_folders()))<CR>', opt)
--- bufferline 左右Tab切换
-map("n", "<C-h>", ":BufferLineCyclePrev<CR>", opt)
-map("n", "<C-l>", ":BufferLineCycleNext<CR>", opt)
+map('n', '<F7>', '<cmd>FloatermNew<CR>', opt)
