@@ -31,14 +31,18 @@ require("nvim-tree").setup({
       args = {}
     },
     filters = {
-      dotfiles = false,
-      custom = {}
+      dotfiles = true,
+      custom = {
+			"*.o",
+			"*.ko",
+			"*.cmd"
+		}
     },
     git = {
       enable = false,
     },
     view = {
-      width = 30,
+      width = 25,
       hide_root_folder = false,
       side = 'left',
       mappings = {
