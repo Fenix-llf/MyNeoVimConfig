@@ -35,5 +35,6 @@ return require('packer').startup(function()
 	use 'kyazdani42/nvim-web-devicons'
 	use {"nvim-telescope/telescope-fzf-native.nvim", run = "make"}
 	use { 'nvim-treesitter/nvim-treesitter', run = ':TSUpdate' }
+	use 'simrat39/symbols-outline.nvim'
 	use 'voldikss/vim-floaterm'
 end)
