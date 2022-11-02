@@ -4,8 +4,6 @@ vim.g.maplocalleader = ' '
 local opt = { noremap = true , silent = true}
 local map = vim.api.nvim_set_keymap
 
-map("i", "<C-s>", "<cmd>:w<CR>", opt)
-
 --分割窗口
 map("n", "s", "<nop>", opt)
 map("n", "s<right>","<Cmd> set splitright<CR>:vsplit<CR>", opt)

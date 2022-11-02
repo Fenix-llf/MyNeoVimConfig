@@ -26,6 +26,9 @@ local options = {
 	termencoding = 'utf-8',
 	encoding = 'utf-8',
 	whichwrap = 'h,l,b,s,<,>,[,]', -- 换行按键
+	guicursor = 'n-i-c-v:ver50-ncvCursor', -- 设置光标样式
+	cursorline = true,
+	cursorcolumn = true,
 }
 
 --引入以上所有设置
