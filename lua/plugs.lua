@@ -36,4 +36,5 @@ return require('packer').startup(function()
 	use { 'nvim-treesitter/nvim-treesitter', run = ':TSUpdate' }
 	use 'simrat39/symbols-outline.nvim'
 	use 'voldikss/vim-floaterm'
+	use { 'sindrets/diffview.nvim', requires = 'nvim-lua/plenary.nvim' }
 end)

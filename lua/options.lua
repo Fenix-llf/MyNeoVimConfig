@@ -25,6 +25,7 @@ local options = {
 	fileencodings = 'utf-8,ucs-bom,gb18030,gbk,gb2312,cp936',
 	termencoding = 'utf-8',
 	encoding = 'utf-8',
+	whichwrap = 'h,l,b,s,<,>,[,]', -- 换行按键
 }
 
 --引入以上所有设置
