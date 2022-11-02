@@ -11,7 +11,6 @@ vim.cmd [[
 --删除插件再使用PackerClean
 return require('packer').startup(function()
 	use 'wbthomason/packer.nvim'
-    use 'ervandew/supertab'
     use 'vim-airline/vim-airline'
     use 'vim-airline/vim-airline-themes'
     use 'nvim-tree/nvim-tree.lua'
