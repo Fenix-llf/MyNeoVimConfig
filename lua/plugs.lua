@@ -11,26 +11,26 @@ vim.cmd [[
 --删除插件再使用PackerClean
 return require('packer').startup(function()
 	use 'wbthomason/packer.nvim'
-    use 'vim-airline/vim-airline'
-    use 'vim-airline/vim-airline-themes'
-    use 'nvim-tree/nvim-tree.lua'
+	use 'vim-airline/vim-airline'
+	use 'vim-airline/vim-airline-themes'
+	use 'nvim-tree/nvim-tree.lua'
 	use 'navarasu/onedark.nvim'
 	use 'nvim-lualine/lualine.nvim'
 	use 'neovim/nvim-lspconfig'
 	use 'williamboman/nvim-lsp-installer'
-	 -- nvim-cmp
-  	use 'hrsh7th/cmp-nvim-lsp' -- { name = nvim_lsp }
-  	use 'hrsh7th/cmp-buffer'   -- { name = 'buffer' },
-  	use 'hrsh7th/cmp-path'     -- { name = 'path' }
-  	use 'hrsh7th/cmp-cmdline'  -- { name = 'cmdline' }
-  	use 'hrsh7th/nvim-cmp'
-  	-- vsnip
-  	use 'hrsh7th/cmp-vsnip'    -- { name = 'vsnip' }
-  	use 'hrsh7th/vim-vsnip'
-  	use 'rafamadriz/friendly-snippets'
+	-- nvim-cmp
+	use 'hrsh7th/cmp-nvim-lsp' -- { name = nvim_lsp }
+	use 'hrsh7th/cmp-buffer'   -- { name = 'buffer' },
+	use 'hrsh7th/cmp-path'     -- { name = 'path' }
+	use 'hrsh7th/cmp-cmdline'  -- { name = 'cmdline' }
+	use 'hrsh7th/nvim-cmp'
+	-- vsnip
+	use 'hrsh7th/cmp-vsnip'    -- { name = 'vsnip' }
+	use 'hrsh7th/vim-vsnip'
+	use 'rafamadriz/friendly-snippets'
 	use 'onsails/lspkind.nvim'
 	use 'nvim-telescope/telescope.nvim'
-    use 'nvim-lua/plenary.nvim'
+	use 'nvim-lua/plenary.nvim'
 	use 'kyazdani42/nvim-web-devicons'
 	use {"nvim-telescope/telescope-fzf-native.nvim", run = "make"}
 	use { 'nvim-treesitter/nvim-treesitter', run = ':TSUpdate' }

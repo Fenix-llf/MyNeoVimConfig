@@ -159,10 +159,10 @@ _G.packer_plugins = {
     path = "/home/fenix/.local/share/nvim/site/pack/packer/start/plenary.nvim",
     url = "https://github.com/nvim-lua/plenary.nvim"
   },
-  supertab = {
+  ["symbols-outline.nvim"] = {
     loaded = true,
-    path = "/home/fenix/.local/share/nvim/site/pack/packer/start/supertab",
-    url = "https://github.com/ervandew/supertab"
+    path = "/home/fenix/.local/share/nvim/site/pack/packer/start/symbols-outline.nvim",
+    url = "https://github.com/simrat39/symbols-outline.nvim"
   },
   ["telescope-fzf-native.nvim"] = {
     loaded = true,
@@ -183,6 +183,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/fenix/.local/share/nvim/site/pack/packer/start/vim-airline-themes",
     url = "https://github.com/vim-airline/vim-airline-themes"
+  },
+  ["vim-floaterm"] = {
+    loaded = true,
+    path = "/home/fenix/.local/share/nvim/site/pack/packer/start/vim-floaterm",
+    url = "https://github.com/voldikss/vim-floaterm"
   },
   ["vim-vsnip"] = {
     loaded = true,
