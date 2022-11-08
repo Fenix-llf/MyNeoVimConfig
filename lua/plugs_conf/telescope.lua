@@ -8,6 +8,17 @@ end
 ------------------------------
 require("telescope").setup {
 	defaults = {
+		preview = false,
+		layout_config = {
+			vertical = {
+				width = 0.3,
+				height = 0.3
+			},
+			horizontal = {
+				width = 0.25,
+				height = 0.3,
+			},
+		},
 		mappings = {
 			n = {
 				["q"] = actions.close,

@@ -29,7 +29,7 @@ local options = {
 	guicursor = 'n-i-c-v:ver50-ncvCursor', -- 设置光标样式
 	cursorline = true,
 	cursorcolumn = true,
-	swapfile = fales,
+	swapfile = false,
 }
 
 --引入以上所有设置

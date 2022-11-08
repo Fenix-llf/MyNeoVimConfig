@@ -4,6 +4,8 @@ local opts = { noremap = true , silent = true}
 --快捷键
 vim.api.nvim_set_keymap("n", "<F3>", "<Cmd> NvimTreeToggle<CR>", opts)
 
+vim.api.nvim_set_keymap("n", "<F4>", "<Cmd> NvimTreeFindFile<CR>", opts)
+
 require("nvim-tree").setup({
 	disable_netrw       = true,
     hijack_netrw        = true,
